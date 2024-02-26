@@ -19,9 +19,8 @@
 }
 
 header {
-    position: absolute;
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
 
 header > div {
@@ -29,13 +28,14 @@ header > div {
     justify-content: space-between;
 }
 
-header > section > div > img {
+header > div > img {
     width: 300px;
     
 }
 
-.header-derecha {
-    justify-content: end;
+.redes{
+    width: 10px;
+
     
 
 }
