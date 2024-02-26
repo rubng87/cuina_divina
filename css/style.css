@@ -2,5 +2,87 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Lexend:wght@200;400&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato, Arial, Helvetica, "sans-serif";
+}
+
+:root {
+    --width-content: 1200px;
+}
+
+.width-content {
+    max-width : 1200px;
+    margin: 0 auto;
+}
+
+header {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
+header > div {
+    text-align: center;
+    justify-content: space-between;
+}
+
+header > section > div > img {
+    width: 300px;
+    
+}
+
+.header-derecha {
+    justify-content: end;
+    
+
+}
+
+/* =============================================  */
+/* Barra de navegación  */
 
 
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    margin-top: -5px;
+
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.nav-ul > li {
+    list-style: none;
+    padding: 10px;
+    
+    /* align-items: center; */
+}
+
+.li {
+    border-top: 10px solid white;
+}
+
+.texto-pestaña-centro {
+    border-top: 10px transparent
+}
+
+.nav-ul > li:hover {
+    color: rgb(163, 109, 61);
+    border-top: 10px color rgb(163, 109, 61);
+    bo
+    
+    
+    /* border-radius: 10px; */
+} 
+.nav-ul > li > a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.5rem;
+}
